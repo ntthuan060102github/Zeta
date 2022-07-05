@@ -1,0 +1,86 @@
+.share{
+    width: 100%;
+    border-radius: 10px;
+    --webkit-box-shadow: 0 0 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 0 16px -8px rgba(0, 0, 0, 0.68);
+}
+.share__wrapper{
+    padding: 20px;
+}
+.share__top{
+    display: flex;
+    align-items: center;
+}
+.share__profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.share__input{
+    border: none;
+    width: 80%;
+}
+.share__input:focus{
+    outline: none;
+}
+.share__hr{
+    margin: 20px;
+}
+.share__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.share__options{
+    display: flex;
+    margin-left: 20px;
+}
+.share__option{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.share__icon{
+    font-size: 18px;
+    margin-right: 3px;
+}
+.share__option-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+.share__button{
+    border: none;
+    padding: 7px 16px;
+    border-radius: 5px;
+    background-color: #1877f2;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s;
+}
+.share__button:hover{
+    background-color: #1360c5;
+}
+#input__file{
+    display: none;
+}
+.share__img-preview{
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+.share__img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.share__cancel-preview{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}

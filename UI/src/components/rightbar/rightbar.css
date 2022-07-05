@@ -1,0 +1,100 @@
+.rightbar{
+    flex: 3.5;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+}
+.rightbar::-webkit-scrollbar {
+    display: none;
+}
+.rightbar__wrapper{
+    padding: 20px 20px 0 0;
+}
+.birthday{
+    display: flex;
+    align-items: center;
+}
+.birthday__img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.birthday__text{
+    font-weight: 400;
+    font-size: 15px;
+}
+.rightbar__ads{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.rightbar__title{
+    margin-bottom: 20px;
+}
+.rightbar__title--profile{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightbar__informations{
+    margin-bottom: 30px;
+}
+.rightbar__information{
+    margin-bottom: 10px;
+}
+.rightbar__informations-key{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.rightbar__information-value{
+    font-weight: 300;
+    /* float: right; */
+}
+.rightbar__followers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 12px;
+    /* flex-wrap: no-wrap;
+    justify-content: space-between; */
+}
+.rightbar__follower{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.rightbar__follower-img{
+    width: 100%;
+    height: same-as-width;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.rightbar__follower-name{
+    color: black;
+    font-size: 16px;
+    margin-top: 4px;
+}
+.rightbar__follow-btn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.25s;
+}
+.rightbar__follow-btn:focus{
+    outline: none;
+}
+.rightbar__follow-btn:hover{
+    background-color: #1866d4;
+}

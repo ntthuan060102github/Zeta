@@ -1,0 +1,33 @@
+
+.friends{
+
+}
+.friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.friend__wrapper{
+    margin-right: 10px;
+    position: relative;
+    z-index: -1;
+}
+.friend__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.friend__isOnline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
+}
+.friend__user-name{
+    font-weight: 500;
+}
